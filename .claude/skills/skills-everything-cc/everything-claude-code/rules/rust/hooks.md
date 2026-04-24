@@ -1,0 +1,26 @@
+---
+paths:
+  - "**/*.rs"
+  - "**/Cargo.toml"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+# Rust Hooks
+
+> This file extends [common/hooks.md](../common/hooks.md) with Rust-specific content.
+
+## PostToolUse Hooks
+
+Configure in `~/.claude/settings.json`:
+
+- **cargo fmt**: Auto-format `.rs` files after edit
+- **cargo clippy**: Run lint checks after editing Rust files
+- **cargo check**: Verify compilation after changes (faster than `cargo build`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+
