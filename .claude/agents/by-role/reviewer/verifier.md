@@ -1,7 +1,7 @@
 ---
 name: verifier
 description: Verification strategy, evidence-based completion checks, test adequacy
-model: gpt-4o-6
+
 level: 3
 tags:
   - domain/agents

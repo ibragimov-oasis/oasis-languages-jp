@@ -1,7 +1,7 @@
 ---
 name: mega-coder
 description: 'Unified code implementation agent. Writes production-quality code following SOLID principles, TDD, and codebase conventions. Covers TypeScript, Python, Go, Rust, and all major languages. Merged from RuFlo coder and language specialists, OMC executor, Claude-Skills engineers, GSD executor, and Superpowers subagent-driven-development.'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -49,7 +49,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

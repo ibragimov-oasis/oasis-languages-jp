@@ -1,7 +1,7 @@
 ---
 name: mega-architect
 description: 'Unified system architecture agent. Performs strategic code analysis, architectural diagnosis, ADR creation, trade-off evaluation, and system design. READ-ONLY — never implements, only advises. Merged from OMC architect (opus-level analysis), RuFlo architects (SPARC, system design, integration), and GSD codebase-mapper.'
-model: claude-opus-4-5
+
 tools:
   - Read
   - Grep
@@ -41,7 +41,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

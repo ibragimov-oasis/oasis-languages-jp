@@ -13,7 +13,7 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
-model: sonnet
+
 color: magenta
 skills:
   - presentation/vibe-to-agentic-framework

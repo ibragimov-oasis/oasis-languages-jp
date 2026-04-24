@@ -346,7 +346,7 @@ cp -r everything-claude-code/skills/* ~/COMBINED/workspace-config/claude/skills/
 name: code-reviewer
 description: Reviews code for quality, security, and maintainability
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+
 ---
 
 You are a senior code reviewer...

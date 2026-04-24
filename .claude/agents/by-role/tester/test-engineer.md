@@ -1,7 +1,7 @@
 ---
 name: test-engineer
 description: Test strategy, integration/e2e coverage, flaky test hardening, TDD workflows
-model: gpt-4o-6
+
 level: 3
 tags:
   - domain/agents

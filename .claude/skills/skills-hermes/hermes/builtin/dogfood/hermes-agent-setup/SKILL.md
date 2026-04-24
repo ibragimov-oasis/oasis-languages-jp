@@ -153,7 +153,7 @@ stt:
   enabled: true
   provider: local
   local:
-    model: base  # Options: tiny, base, small, medium, large-v3
+
 ```
 
 Model downloads automatically on first use (~150 MB for base).
@@ -233,7 +233,7 @@ The main config file is `~/.hermes/config.yaml`. Key sections:
 
 ```yaml
 # Model and provider
-model:
+
   default: anthropic/claude-opus-4.6
   provider: openrouter
 

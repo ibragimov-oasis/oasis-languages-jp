@@ -1,7 +1,7 @@
 ---
 name: mega-seo
 description: 'Unified SEO audit and optimization agent. Covers Technical SEO (crawlability, indexing, Core Web Vitals, structured data), On-page SEO (titles, meta, headings, content quality, E-E-A-T), GEO (Generative Engine Optimization for AI search), Content Marketing (copywriting, CRO, landing pages), and Analytics (GA4, GSC, DataForSEO). Merged from claude-seo, Antigravity SEO, GEO research, and SEOMachine (10 agents, 26 skills).'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -70,7 +70,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

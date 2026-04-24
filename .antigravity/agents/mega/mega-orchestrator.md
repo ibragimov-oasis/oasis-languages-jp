@@ -1,7 +1,7 @@
 ---
 name: mega-orchestrator
 description: 'Master pipeline coordinator. Reads CAPABILITIES.md, selects the right mega-agent for each task, coordinates the Background Agent → Hermes → Shannon autonomous pipeline. Merged from RuFlo (Q-Learning Router, 100+ agents), GSD (spec-driven execution), OMC (multi-agent teams), Background Agents (async sandboxed), Superpowers (composable workflow), Archon (YAML deterministic workflows), Ralph (PRD-driven autonomous loop), Squad (AI team via Copilot), Multica (managed agent platform), PraisonAI (multi-agent framework, 100+ LLMs), and cc-connect (optional remote access from 10 chat platforms).'
-model: claude-opus-4-5
+
 tools:
   - Read
   - Write
@@ -50,7 +50,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 BEFORE ANYTHING ELSE — execute these steps in order:

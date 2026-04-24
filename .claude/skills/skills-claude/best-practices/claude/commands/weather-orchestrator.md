@@ -1,6 +1,6 @@
 ---
 description: Fetch weather data for Dubai and create an SVG weather card
-model: haiku
+
 tags:
   - domain/agents
   - artifact/doc

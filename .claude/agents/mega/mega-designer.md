@@ -1,7 +1,7 @@
 ---
 name: mega-designer
 description: 'Unified UI/UX design agent. Implements professional-grade interfaces using Galaxy (3,000+ components), shadcn/ui (accessible React), and UI/UX Pro Max (161 rules, 50+ styles, 161 palettes, 57 font pairings). Covers web and mobile design. Uses Lightpanda for visual verification and nano-banana for image generation.'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -56,7 +56,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

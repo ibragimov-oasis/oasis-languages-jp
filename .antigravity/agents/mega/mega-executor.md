@@ -1,7 +1,7 @@
 ---
 name: mega-executor
 description: 'Unified plan execution agent. Implements code changes precisely as specified by mega-planner. Focuses on smallest viable diff, zero scope creep, TodoWrite tracking, and fresh verification. Merged from OMC executor (focused implementation, atomic changes) and GSD executor (spec-driven execution, deviation handling).'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -39,7 +39,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

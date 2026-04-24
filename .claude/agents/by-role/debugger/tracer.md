@@ -1,7 +1,7 @@
 ---
 name: tracer
 description: Evidence-driven causal tracing with competing hypotheses, evidence for/against, uncertainty tracking, and next-probe recommendations
-model: gpt-4o-6
+
 level: 3
 tags:
   - domain/agents

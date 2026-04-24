@@ -1,7 +1,7 @@
 ---
 name: mega-planner
 description: 'Unified planning and architecture agent. Decomposes complex tasks into executable plans with phased milestones, cost estimation, risk analysis, and verification criteria. Merged from GSD planner (45KB, Nyquist validation, spec-driven development), OMC planner (opus strategic planning, team PRDs), and RuFlo architect (ADRs, system design, Q-Learning Router).'
-model: claude-opus-4-5
+
 tools:
   - Read
   - Write
@@ -45,7 +45,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

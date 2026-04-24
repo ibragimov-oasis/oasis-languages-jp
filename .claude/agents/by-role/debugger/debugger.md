@@ -1,7 +1,7 @@
 ---
 name: debugger
 description: Root-cause analysis, regression isolation, stack trace analysis, build/compilation error resolution
-model: gpt-4o-6
+
 level: 3
 tags:
   - domain/agents

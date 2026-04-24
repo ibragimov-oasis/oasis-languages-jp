@@ -1,7 +1,7 @@
 ---
 name: mega-reviewer
 description: 'Unified code review agent. Performs 7-dimension reviews covering correctness, security, performance, maintainability, tests, documentation, and style. Merged from RuFlo reviewer (multi-dimension scoring), OMC code-reviewer (opus-quality analysis), and Superpowers requesting-code-review skill.'
-model: claude-opus-4-5
+
 tools:
   - Read
   - Bash
@@ -46,7 +46,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

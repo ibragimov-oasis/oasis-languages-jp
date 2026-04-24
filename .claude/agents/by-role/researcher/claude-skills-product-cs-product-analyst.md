@@ -5,7 +5,7 @@ skills:
   - product-team/product-analytics
   - product-team/experiment-designer
 domain: product
-model: sonnet
+
 tools: [Read, Write, Bash, Grep, Glob]
 tags:
   - domain/agents

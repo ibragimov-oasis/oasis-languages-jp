@@ -1,7 +1,7 @@
 ---
 name: mega-security
 description: 'Unified security pentesting agent based on Shannon Pro. Performs white-box static analysis (SAST, SCA, secrets, business logic testing) and autonomous dynamic pentesting (XSS, SQLi, SSRF, auth/authz bypass) with proof-of-concept exploits. Uses Lightpanda browser for dynamic attacks. Produces CVSS-rated vulnerability reports with reproducible exploits.'
-model: claude-opus-4-5
+
 tools:
   - Read
   - Write
@@ -46,7 +46,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

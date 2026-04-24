@@ -1,7 +1,7 @@
 ---
 name: ux-designer
 description: Produces a concise, accessible UX brief with flows, states, and annotations.
-model: opus
+
 color: purple
 tags:
   - domain/agents

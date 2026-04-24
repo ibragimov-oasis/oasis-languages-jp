@@ -1,7 +1,7 @@
 ---
 name: qa-tester
 description: Interactive CLI testing specialist using tmux for session management
-model: gpt-4o-6
+
 level: 3
 tags:
   - domain/agents

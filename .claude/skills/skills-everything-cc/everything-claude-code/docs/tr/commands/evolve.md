@@ -169,7 +169,7 @@ evolved_from:
 ---
 name: debugger
 description: Sistematik debugging agent
-model: sonnet
+
 evolved_from:
   - debug-check-logs
   - debug-isolate

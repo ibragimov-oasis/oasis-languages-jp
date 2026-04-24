@@ -1,5 +1,5 @@
 ---
-model: haiku
+
 tags:
   - domain/agents
   - artifact/doc

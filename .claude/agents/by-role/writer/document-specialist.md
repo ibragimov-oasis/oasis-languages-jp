@@ -1,7 +1,7 @@
 ---
 name: document-specialist
 description: External Documentation & Reference Specialist
-model: gpt-4o-6
+
 level: 2
 disallowedTools: Write, Edit
 tags:

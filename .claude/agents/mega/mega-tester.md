@@ -1,7 +1,7 @@
 ---
 name: mega-tester
 description: 'Unified testing agent. Enforces TDD (RED-GREEN-REFACTOR), designs test strategies following the testing pyramid (70% unit, 20% integration, 10% e2e), diagnoses flaky tests, performs coverage gap analysis, and validates quality gates. Merged from OMC test-engineer and qa-tester, GSD integration-checker, ui-checker, and verifier, RuFlo TDD/testing agents, and Superpowers test-driven-development.'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -46,7 +46,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root

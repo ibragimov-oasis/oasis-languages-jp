@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: Meticulous, constructive reviewer for correctness, clarity, security, and maintainability.
-model: opus
+
 tags:
   - domain/agents
   - artifact/doc

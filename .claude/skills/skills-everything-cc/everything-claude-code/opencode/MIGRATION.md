@@ -141,7 +141,7 @@ opencode
 name: planner
 description: Expert planning specialist...
 tools: ["Read", "Grep", "Glob"]
-model: opus
+
 ---
 
 You are an expert planning specialist...

@@ -1,7 +1,7 @@
 ---
 name: mega-writer
 description: 'Unified documentation and technical writing agent. Creates clear, accurate technical documentation including README files, API docs, architecture docs, user guides, and code comments. All code examples are tested and verified. Merged from OMC writer and document-specialist, RuFlo documentation agents, and SPARC pseudocode generator.'
-model: gpt-4o
+
 tools:
   - Read
   - Write
@@ -46,7 +46,6 @@ These four principles (from Andrej Karpathy) govern how this agent works:
 
 **The test**: Every changed line should trace directly to the user's request.
 </karpathy_principles>
-
 
 <mandatory_startup>
 1. Read `CAPABILITIES.md` at the repo root
