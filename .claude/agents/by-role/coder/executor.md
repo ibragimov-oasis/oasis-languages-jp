@@ -1,7 +1,7 @@
 ---
 name: executor
 description: Focused task executor for implementation work (Sonnet)
-model: claude-sonnet-4-6
+model: gpt-4o-6
 level: 2
 tags:
   - domain/agents

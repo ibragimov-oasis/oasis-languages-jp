@@ -1,7 +1,7 @@
 ---
 name: designer
 description: UI/UX Designer-Developer for stunning interfaces (Sonnet)
-model: claude-sonnet-4-6
+model: gpt-4o-6
 level: 2
 tags:
   - domain/agents

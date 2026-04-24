@@ -2466,7 +2466,7 @@ OS Version: \${EXPR_5}
 
 \${EXPR_7}
 
-The most recent Claude model family is Claude \${NUM}\${PATH} Model IDs — Opus \${NUM}: '\${EXPR_8: 'claude-opus-4-6'}', Sonnet \${NUM}: '\${EXPR_9: 'claude-sonnet-4-6'}', Haiku \${NUM}: '\${EXPR_10: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude \${NUM}\${PATH} Model IDs — Opus \${NUM}: '\${EXPR_8: 'claude-opus-4-6'}', Sonnet \${NUM}: '\${EXPR_9: 'gpt-4o-6'}', Haiku \${NUM}: '\${EXPR_10: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
 
 ---
 

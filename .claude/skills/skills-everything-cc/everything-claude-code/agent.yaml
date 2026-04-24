@@ -7,7 +7,7 @@ license: MIT
 model:
   preferred: claude-opus-4-6
   fallback:
-    - claude-sonnet-4-6
+    - gpt-4o-6
 skills:
   - agent-eval
   - agent-harness-construction
