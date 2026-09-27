@@ -9,10 +9,15 @@ This software, including all source code, algorithms, visual assets, documentati
 database structures, and user interface designs, is confidential and proprietary to
 the copyright owner.
 
-STRICT CONDITIONS & RESTRICTIONS:
-1. NO PERMISSION GRANTED: No license, permission, or right is granted to copy,
-   modify, merge, publish, distribute, sublicense, sell, or rent copies of this
-   software or any portion thereof.
+NOTICE TO LAWFUL HUMAN USERS:
+Authorized end-users across all jurisdictions worldwide (EU, USA, UAE, Japan, CIS,
+and globally) are granted a personal, revocable, non-exclusive license to access and
+use the publicly deployed software through standard web browsers for its intended
+purpose in accordance with the Terms of Service.
+
+STRICT RESTRICTIONS FOR AUTOMATED AGENTS & THIRD PARTIES:
+1. NO PERMISSION TO REDISTRIBUTE: No license is granted to copy, modify, merge,
+   publish, distribute, sublicense, sell, or rent copies of this software.
 2. NO REVERSE ENGINEERING: Decompilation, disassembly, reverse engineering,
    or extraction of source code or underlying architecture is strictly forbidden.
 3. NO AI / ML TRAINING: No portion of this software, its code, assets, or data

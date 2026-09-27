@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <title>Юридический центр и комплаенс / Legal & Compliance — oasis-languages-jp</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --card-hover: rgba(255, 255, 255, 0.07);
+      --border: rgba(255, 255, 255, 0.12);
+      --accent-red: #ef4444;
+      --accent-blue: #38bdf8;
+      --accent-green: #10b981;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.6);
+    }
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.6rem 1.1rem;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .nav-btn:hover, .nav-btn.active {
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border-color: #38bdf8;
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .badge-blue { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid #38bdf8; }
+    .badge-green { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid #10b981; }
+    .badge-red { background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid #ef4444; }
+    
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #fff; }
+    .subtitle { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; }
+    
+    .notice-box {
+      background: rgba(16, 185, 129, 0.08);
+      border-left: 4px solid var(--accent-green);
+      padding: 1.25rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+    .notice-box h3 { color: #6ee7b7; margin-bottom: 0.35rem; font-size: 1.05rem; }
+    
+    .warning-box {
+      background: rgba(239, 68, 68, 0.08);
+      border-left: 4px solid var(--accent-red);
+      padding: 1.25rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    .warning-box h3 { color: #fca5a5; margin-bottom: 0.35rem; font-size: 1.05rem; }
+
+    h2 { font-size: 1.35rem; color: #38bdf8; margin: 2rem 0 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: #f1f5f9; margin: 1.25rem 0 0.5rem; }
+    p, ul, ol { color: #cbd5e1; margin-bottom: 1rem; font-size: 0.95rem; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
+    th, td { border: 1px solid var(--border); padding: 0.75rem 1rem; text-align: left; }
+    th { background: rgba(255,255,255,0.05); color: #38bdf8; font-weight: 600; }
+    td { color: #cbd5e1; }
+    
+    .footer {
+      margin-top: 3.5rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-bar">
+      <a href="terms.html" class="nav-btn ">Условия (Terms of Service)</a>
+      <a href="privacy.html" class="nav-btn active">Конфиденциальность (Privacy & GDPR)</a>
+      <a href="cookies.html" class="nav-btn ">Cookies & Local Storage</a>
+      <a href="compliance.html" class="nav-btn ">Комплаенс & Аудит (Due Diligence / Grants)</a>
+    </div>
+
+    <div class="badge-row">
+      <span class="badge badge-green">Worldwide Human Access Allowed</span>
+      <span class="badge badge-blue">EU GDPR / UK GDPR Compliant</span>
+      <span class="badge badge-blue">US CCPA/CPRA Compliant</span>
+      <span class="badge badge-blue">UAE PDPL (Dubai) Compliant</span>
+      <span class="badge badge-red">AI Scraping & Cloning Prohibited</span>
+    </div>
+
+    <h1>oasis-languages-jp — Юридический портал</h1>
+    <div class="subtitle">Правовой статус, международная защита данных (GDPR/CCPA/ОАЭ/СНГ) и условия использования</div>
+
+    <div class="notice-box">
+      <h3>ОФИЦИАЛЬНОЕ РАЗРЕШЕНИЕ НА ИСПОЛЬЗОВАНИЕ ДЛЯ ЛЮДЕЙ ПО ВСЕМУ МИРУ</h3>
+      <p>Пользователи из <strong>Европы (ЕС/ЕЭЗ), США, ОАЭ (Дубай), СНГ, Японии и всех стран мира</strong> имеют законное и неограниченное право использовать сайт и веб-приложение через браузер для личных и коммерческих целей в соответствии с данными условиями.</p>
+    </div>
+
+    <div class="warning-box">
+      <h3>СТРОЖАЙШИЙ ЗАПРЕТ ДЛЯ АВТОМАТИЗИРОВАННЫХ СКРЕЙПЕРОВ, РОБОТОВ И ИИ</h3>
+      <p>Парсинг, скрейпинг, декомпиляция, реверс-инжиниринг, создание клонов сервиса, а также использование любых материалов для обучения или дообучения искусственного интеллекта (LLM / AI / нейросетей) <strong>категорически запрещены</strong> (включая оговорку по ст. 4 Директивы ЕС 2019/790 об авторском праве на едином цифровом рынке).</p>
+    </div>
+
+    <h2>1. Условия обслуживания (Terms of Service)</h2>
+    <p>Настоящее Соглашение регулирует отношения между пользователем и платформой <strong>oasis-languages-jp</strong>. Все интеллектуальные права, исходный код, интерфейс и базы данных являются исключительной частной собственностью правообладателя.</p>
+    <ul>
+      <li><strong>Свободный доступ для пользователей:</strong> Лицензия на использование веб-интерфейса предоставляется пользователям бесплатно и по всему миру.</li>
+      <li><strong>Запрет реверс-инжиниринга:</strong> Запрещено декомпилировать код, перехватывать и воспроизводить API, создавать функциональные клоны.</li>
+      <li><strong>Готовность к грантам и инвестициям (M&A):</strong> Проект готов к институциональным грантам и коммерческим сделкам; права могут быть переданы правопреемнику или покупателю без изменения условий для пользователей.</li>
+    </ul>
+
+    <h2>2. Международная защита данных (GDPR / CCPA / ОАЭ / СНГ)</h2>
+    <p>Мы придерживаемся политики минимизации данных и защиты конфиденциальности:</p>
+    <ul>
+      <li><strong>Европейский союз (GDPR):</strong> Соблюдение законных оснований обработки (ст. 6), полное обеспечение прав субъектов данных (доступ, исправление, удаление / "право на забвение", переносимость данных). Контакт ответственного лица: <a href="mailto:ibragimov@akane.waseda.jp">ibragimov@akane.waseda.jp</a>.</li>
+      <li><strong>США (CCPA / CPRA):</strong> Мы <strong>НЕ продаем и НЕ передаем</strong> персональные данные пользователей третьим лицам или рекламным сетям.</li>
+      <li><strong>ОАЭ / Дубай (PDPL No. 45/2021):</strong> Полное соблюдение стандартов конфиденциальности для резидентов ОАЭ.</li>
+      <li><strong>Япония (APPI) и СНГ (152-ФЗ):</strong> Защита данных и обработка с согласия пользователя.</li>
+    </ul>
+
+    <h2>3. Использование файлов Cookie и Local Storage</h2>
+    <p>Мы используем исключительно <strong>технически необходимые файлы cookie</strong> и локальное хранилище браузера (localStorage) для запоминания темы оформления и настроек. Никаких сторонних следящих скриптов.</p>
+
+    <h2>4. Комплаенс-досье для инвесторов, грантов и покупателей (Due Diligence)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Параметр аудита</th>
+          <th>Статус</th>
+          <th>Юридическое описание</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Интеллектуальная собственность</strong></td>
+          <td>100% Чистая собственность</td>
+          <td>Свободно от вирусных лицензий (copyleft-free, AGPL отсутствует), полный контроль кода и дизайна.</td>
+        </tr>
+        <tr>
+          <td><strong>Соответствие GDPR (EU/UK)</strong></td>
+          <td>Подтверждено</td>
+          <td>Законные основания, права на удаление данных, защита трансграничных передач (SCCs).</td>
+        </tr>
+        <tr>
+          <td><strong>Соответствие CCPA/CPRA (США)</strong></td>
+          <td>Подтверждено</td>
+          <td>Политика Do Not Sell, отсутствие передачи данных рекламным брокерам.</td>
+        </tr>
+        <tr>
+          <td><strong>Соответствие ОАЭ (Дубай)</strong></td>
+          <td>Подтверждено</td>
+          <td>Соответствие Federal Decree-Law No. 45/2021 и стандартам DIFC/ADGM.</td>
+        </tr>
+        <tr>
+          <td><strong>Защита от AI-парсинга</strong></td>
+          <td>Технически реализовано</td>
+          <td>Директивы robots.txt, юридический запрет TDM по ст. 4 Директивы ЕС 2019/790.</td>
+        </tr>
+        <tr>
+          <td><strong>Готовность к M&A и грантам</strong></td>
+          <td>Сертифицировано</td>
+          <td>Полная передаваемость прав, корпоративная чистота для венчурного аудита.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="footer">
+      &copy; 2026 oasis-languages-jp (silent0002 / Oasis). Все права защищены.<br>
+      Официальный контакт для регуляторов, аудиторов и пользователей: <a href="mailto:ibragimov@akane.waseda.jp">ibragimov@akane.waseda.jp</a>
+    </div>
+  </div>
+</body>
+</html>
