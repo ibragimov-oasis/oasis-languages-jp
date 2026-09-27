@@ -1,0 +1,215 @@
+# ==============================================================================
+# PROPRIETARY PROPERTY NOTICE & STRICT CRAWLER / BOT / AI DISALLOW
+# ==============================================================================
+# All content, layout, source code, data, assets, UI/UX designs, algorithms,
+# APIs, architecture, and intellectual property associated with this domain
+# and repository are strictly confidential, proprietary, and protected by law.
+#
+# EXPRESS RESTRICTIONS & STRICT LEGAL PROHIBITIONS:
+# 1. NO SCRAPING, DATA MINING, HARVESTING, OR EXTRACTION OF ANY NATURE.
+# 2. NO ARTIFICIAL INTELLIGENCE (AI), LARGE LANGUAGE MODEL (LLM), OR MACHINE
+#    LEARNING (ML) TRAINING, FINE-TUNING, INGESTION, CACHING, OR BENCHMARKING.
+# 3. NO REVERSE ENGINEERING, DECOMPILATION, DISASSEMBLY, SOURCE CODE EXTRACTION,
+#    OR FUNCTIONAL RECONSTRUCTION / CLONING.
+# 4. NO MIRRORING, ARCHIVING, REPRODUCTION, OR CREATION OF DERIVATIVE WORKS.
+# 5. NO UNAUTHORIZED AUTOMATED ACCESS, SECURITY SCANNING, OR PENETRATION PROBING.
+#
+# Any crawler, automated agent, or AI tool violating these instructions acts
+# in direct bad faith and intentional breach of service terms, subject to
+# immediate legal enforcement under national and international copyright,
+# computer fraud, and intellectual property statutes.
+# ==============================================================================
+
+# Global catch-all ban for all automated user agents and bots
+User-agent: *
+Disallow: /
+
+# Explicit AI / LLM / Scraper bot bans (Comprehensive list)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /
+
+User-agent: Googlebot-Video
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: GoogleOther-Image
+Disallow: /
+
+User-agent: GoogleOther-Video
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: BingPreview
+Disallow: /
+
+User-agent: msnbot
+Disallow: /
+
+User-agent: Copilot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: LinkedInBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: semantic-scholar
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: panscient.com
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: requests
+Disallow: /
+
+User-agent: aiohttp
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
